@@ -20,6 +20,9 @@ if filereadable(expand('~/.vimrc.local'))
   source ~/.vimrc.local
 endif
 
+set wildmode=list:longest
+set wildmenu
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " TABs size
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
