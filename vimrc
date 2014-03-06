@@ -3,13 +3,13 @@
 " ****************************************************************
 runtime! autoload/pathogen.vim
 if exists('g:loaded_pathogen')
-  call pathogen#runtime_prepend_subdirectories(expand('~/.vim/bundles'))
+  call pathogen#surround('/home/mateus/.vim/bundles/{}')
 endif
 
 " ****************************************************************
 " COLORS AND SYNTAX
 " ****************************************************************
-colorscheme busybee
+colorscheme BusyBee
 syntax on               " Enable syntax highlighting
 filetype plugin indent on
 set t_Co=256
